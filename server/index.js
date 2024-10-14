@@ -17,7 +17,7 @@ const __dirname = path.dirname(__filename);
 const app = express();
 
 // Middleware setup
-app.use(cors({ origin: `http://localhost:${process.env.FE_PORT}` }));
+app.use(cors({ origin: `https://mern-todo-app-efzt.onrender.com/` }));
 app.use(express.json());
 
 // Serve static files from 'dist' directory

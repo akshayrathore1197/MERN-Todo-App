@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Todo from "./Todo";
 
 export default function App() {
-  let backendURL = "http://localhost:5000/api/todos";
+  let backendURL = "/api/todos";
   const [todos, setTodos] = useState([]);
   const [content, setContent] = useState("");
 
